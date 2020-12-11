@@ -15,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void openSlideUpMenu(View view) {
         ActionSheet dialog = new ActionSheet(this);
-//        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
-//        dialog.getWindow().setGravity(Gravity.BOTTOM);
         dialog.show();
     }
 }
